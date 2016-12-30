@@ -1,0 +1,881 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:22.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdCXX.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdCXX\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdCXX\.\CompilerIdCXX.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdCXX.exe;#1" /manifest Debug\CompilerIdCXX.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/3.6.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:23.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdC\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdC\.\CompilerIdC.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdC.exe;#1" /manifest Debug\CompilerIdC.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\3.6.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/3.6.3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_9bed9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:25.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_9bed9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9bed9.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_9bed9.dir\Debug\cmTC_9bed9.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9bed9.dir\Debug\\" /Fd"cmTC_9bed9.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9bed9.dir\Debug\\" /Fd"cmTC_9bed9.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.embed.manifest.res" cmTC_9bed9.dir\Debug\cmTC_9bed9_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_9bed9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_9bed9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_9bed9.lib" /MACHINE:X86 cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.embed.manifest.res
+  cmTC_9bed9.dir\Debug\testCXXCompiler.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.embed.manifest" /manifest cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.embed.manifest.res" cmTC_9bed9.dir\Debug\cmTC_9bed9_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_9bed9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_9bed9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_9bed9.lib" /MACHINE:X86 cmTC_9bed9.dir\Debug\cmTC_9bed9.exe.embed.manifest.res
+  cmTC_9bed9.dir\Debug\testCXXCompiler.obj  /machine:X86 
+  cmTC_9bed9.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_9bed9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9bed9.dir\Debug\cmTC_9bed9.unsuccessfulbuild".
+  Touching "cmTC_9bed9.dir\Debug\cmTC_9bed9.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_9bed9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.90
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_4f77a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:27.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_4f77a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4f77a.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_4f77a.dir\Debug\cmTC_4f77a.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4f77a.dir\Debug\\" /Fd"cmTC_4f77a.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue "..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4f77a.dir\Debug\\" /Fd"cmTC_4f77a.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue "..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.embed.manifest.res" cmTC_4f77a.dir\Debug\cmTC_4f77a_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_4f77a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4f77a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4f77a.lib" /MACHINE:X86 cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.embed.manifest.res
+  cmTC_4f77a.dir\Debug\CMakeCXXCompilerABI.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.embed.manifest" /manifest cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.embed.manifest.res" cmTC_4f77a.dir\Debug\cmTC_4f77a_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_4f77a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4f77a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4f77a.lib" /MACHINE:X86 cmTC_4f77a.dir\Debug\cmTC_4f77a.exe.embed.manifest.res
+  cmTC_4f77a.dir\Debug\CMakeCXXCompilerABI.obj  /machine:X86 
+  cmTC_4f77a.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_4f77a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4f77a.dir\Debug\cmTC_4f77a.unsuccessfulbuild".
+  Touching "cmTC_4f77a.dir\Debug\cmTC_4f77a.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_4f77a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_96b2f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:29.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_96b2f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_96b2f.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_96b2f.dir\Debug\cmTC_96b2f.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_96b2f.dir\Debug\\" /Fd"cmTC_96b2f.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue ..\feature_tests.cxx
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_96b2f.dir\Debug\\" /Fd"cmTC_96b2f.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue ..\feature_tests.cxx
+  
+  feature_tests.cxx
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.embed.manifest.res" cmTC_96b2f.dir\Debug\cmTC_96b2f_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_96b2f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_96b2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_96b2f.lib" /MACHINE:X86 cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.embed.manifest.res
+  cmTC_96b2f.dir\Debug\feature_tests.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.embed.manifest" /manifest cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.embed.manifest.res" cmTC_96b2f.dir\Debug\cmTC_96b2f_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_96b2f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_96b2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_96b2f.lib" /MACHINE:X86 cmTC_96b2f.dir\Debug\cmTC_96b2f.exe.embed.manifest.res
+  cmTC_96b2f.dir\Debug\feature_tests.obj  /machine:X86 
+  cmTC_96b2f.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_96b2f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_96b2f.dir\Debug\cmTC_96b2f.unsuccessfulbuild".
+  Touching "cmTC_96b2f.dir\Debug\cmTC_96b2f.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_96b2f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+
+
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_47a15.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:31.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_47a15.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_47a15.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_47a15.dir\Debug\cmTC_47a15.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_47a15.dir\Debug\\" /Fd"cmTC_47a15.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_47a15.dir\Debug\\" /Fd"cmTC_47a15.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_47a15.dir\Debug\cmTC_47a15.exe.embed.manifest.res" cmTC_47a15.dir\Debug\cmTC_47a15_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_47a15.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_47a15.dir\Debug\cmTC_47a15.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_47a15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_47a15.lib" /MACHINE:X86 cmTC_47a15.dir\Debug\cmTC_47a15.exe.embed.manifest.res
+  cmTC_47a15.dir\Debug\testCCompiler.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_47a15.dir\Debug\cmTC_47a15.exe.embed.manifest" /manifest cmTC_47a15.dir\Debug\cmTC_47a15.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_47a15.dir\Debug\cmTC_47a15.exe.embed.manifest.res" cmTC_47a15.dir\Debug\cmTC_47a15_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_47a15.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_47a15.dir\Debug\cmTC_47a15.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_47a15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_47a15.lib" /MACHINE:X86 cmTC_47a15.dir\Debug\cmTC_47a15.exe.embed.manifest.res
+  cmTC_47a15.dir\Debug\testCCompiler.obj  /machine:X86 
+  cmTC_47a15.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_47a15.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_47a15.dir\Debug\cmTC_47a15.unsuccessfulbuild".
+  Touching "cmTC_47a15.dir\Debug\cmTC_47a15.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_47a15.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_3fad8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:33.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_3fad8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3fad8.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_3fad8.dir\Debug\cmTC_3fad8.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3fad8.dir\Debug\\" /Fd"cmTC_3fad8.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3fad8.dir\Debug\\" /Fd"cmTC_3fad8.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.embed.manifest.res" cmTC_3fad8.dir\Debug\cmTC_3fad8_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_3fad8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_3fad8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_3fad8.lib" /MACHINE:X86 cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.embed.manifest.res
+  cmTC_3fad8.dir\Debug\CMakeCCompilerABI.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.embed.manifest" /manifest cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.embed.manifest.res" cmTC_3fad8.dir\Debug\cmTC_3fad8_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_3fad8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_3fad8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_3fad8.lib" /MACHINE:X86 cmTC_3fad8.dir\Debug\cmTC_3fad8.exe.embed.manifest.res
+  cmTC_3fad8.dir\Debug\CMakeCCompilerABI.obj  /machine:X86 
+  cmTC_3fad8.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_3fad8.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3fad8.dir\Debug\cmTC_3fad8.unsuccessfulbuild".
+  Touching "cmTC_3fad8.dir\Debug\cmTC_3fad8.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_3fad8.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_4fb9f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:40.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_4fb9f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4fb9f.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_4fb9f.dir\Debug\cmTC_4fb9f.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_4fb9f.dir\Debug\\" /Fd"cmTC_4fb9f.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_4fb9f.dir\Debug\\" /Fd"cmTC_4fb9f.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.embed.manifest.res" cmTC_4fb9f.dir\Debug\cmTC_4fb9f_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_4fb9f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4fb9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4fb9f.lib" /MACHINE:X86 cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.embed.manifest.res
+  cmTC_4fb9f.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.embed.manifest" /manifest cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.embed.manifest.res" cmTC_4fb9f.dir\Debug\cmTC_4fb9f_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_4fb9f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4fb9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_4fb9f.lib" /MACHINE:X86 cmTC_4fb9f.dir\Debug\cmTC_4fb9f.exe.embed.manifest.res
+  cmTC_4fb9f.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_4fb9f.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_4fb9f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4fb9f.dir\Debug\cmTC_4fb9f.unsuccessfulbuild".
+  Touching "cmTC_4fb9f.dir\Debug\cmTC_4fb9f.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_4fb9f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_94cce.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:42.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_94cce.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_94cce.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_94cce.dir\Debug\cmTC_94cce.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_94cce.dir\Debug\\" /Fd"cmTC_94cce.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_94cce.dir\Debug\\" /Fd"cmTC_94cce.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_94cce.dir\Debug\cmTC_94cce.exe.embed.manifest.res" cmTC_94cce.dir\Debug\cmTC_94cce_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_94cce.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_94cce.dir\Debug\cmTC_94cce.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_94cce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_94cce.lib" /MACHINE:X86 cmTC_94cce.dir\Debug\cmTC_94cce.exe.embed.manifest.res
+  cmTC_94cce.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_94cce.dir\Debug\cmTC_94cce.exe.embed.manifest" /manifest cmTC_94cce.dir\Debug\cmTC_94cce.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_94cce.dir\Debug\cmTC_94cce.exe.embed.manifest.res" cmTC_94cce.dir\Debug\cmTC_94cce_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_94cce.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_94cce.dir\Debug\cmTC_94cce.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_94cce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_94cce.lib" /MACHINE:X86 cmTC_94cce.dir\Debug\cmTC_94cce.exe.embed.manifest.res
+  cmTC_94cce.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_94cce.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_94cce.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_94cce.dir\Debug\cmTC_94cce.unsuccessfulbuild".
+  Touching "cmTC_94cce.dir\Debug\cmTC_94cce.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_94cce.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_fab9d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:43.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_fab9d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fab9d.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_fab9d.dir\Debug\cmTC_fab9d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_fab9d.dir\Debug\\" /Fd"cmTC_fab9d.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_fab9d.dir\Debug\\" /Fd"cmTC_fab9d.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.embed.manifest.res" cmTC_fab9d.dir\Debug\cmTC_fab9d_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_fab9d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_fab9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_fab9d.lib" /MACHINE:X86 cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.embed.manifest.res
+  cmTC_fab9d.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.embed.manifest" /manifest cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.embed.manifest.res" cmTC_fab9d.dir\Debug\cmTC_fab9d_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_fab9d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_fab9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_fab9d.lib" /MACHINE:X86 cmTC_fab9d.dir\Debug\cmTC_fab9d.exe.embed.manifest.res
+  cmTC_fab9d.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_fab9d.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_fab9d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_fab9d.dir\Debug\cmTC_fab9d.unsuccessfulbuild".
+  Touching "cmTC_fab9d.dir\Debug\cmTC_fab9d.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_fab9d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_279e7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:45.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_279e7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_279e7.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_279e7.dir\Debug\cmTC_279e7.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_279e7.dir\Debug\\" /Fd"cmTC_279e7.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_279e7.dir\Debug\\" /Fd"cmTC_279e7.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c  /bigobj 
+  
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_279e7.dir\Debug\cmTC_279e7.exe.embed.manifest.res" cmTC_279e7.dir\Debug\cmTC_279e7_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_279e7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_279e7.dir\Debug\cmTC_279e7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_279e7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_279e7.lib" /MACHINE:X86 cmTC_279e7.dir\Debug\cmTC_279e7.exe.embed.manifest.res
+  cmTC_279e7.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_279e7.dir\Debug\cmTC_279e7.exe.embed.manifest" /manifest cmTC_279e7.dir\Debug\cmTC_279e7.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_279e7.dir\Debug\cmTC_279e7.exe.embed.manifest.res" cmTC_279e7.dir\Debug\cmTC_279e7_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_279e7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_279e7.dir\Debug\cmTC_279e7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_279e7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_279e7.lib" /MACHINE:X86 cmTC_279e7.dir\Debug\cmTC_279e7.exe.embed.manifest.res
+  cmTC_279e7.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj  /machine:X86 
+  cmTC_279e7.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_279e7.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_279e7.dir\Debug\cmTC_279e7.unsuccessfulbuild".
+  Touching "cmTC_279e7.dir\Debug\cmTC_279e7.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_279e7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_203be.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:47.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_203be.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_203be.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_203be.dir\Debug\cmTC_203be.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_203be.dir\Debug\\" /Fd"cmTC_203be.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue TestEndianess.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_203be.dir\Debug\\" /Fd"cmTC_203be.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue TestEndianess.c  /bigobj 
+  
+  TestEndianess.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_203be.dir\Debug\cmTC_203be.exe.embed.manifest.res" cmTC_203be.dir\Debug\cmTC_203be_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_203be.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_203be.dir\Debug\cmTC_203be.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_203be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_203be.lib" /MACHINE:X86 cmTC_203be.dir\Debug\cmTC_203be.exe.embed.manifest.res
+  cmTC_203be.dir\Debug\TestEndianess.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_203be.dir\Debug\cmTC_203be.exe.embed.manifest" /manifest cmTC_203be.dir\Debug\cmTC_203be.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_203be.dir\Debug\cmTC_203be.exe.embed.manifest.res" cmTC_203be.dir\Debug\cmTC_203be_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_203be.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_203be.dir\Debug\cmTC_203be.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_203be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_203be.lib" /MACHINE:X86 cmTC_203be.dir\Debug\cmTC_203be.exe.embed.manifest.res
+  cmTC_203be.dir\Debug\TestEndianess.obj  /machine:X86 
+  cmTC_203be.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_203be.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_203be.dir\Debug\cmTC_203be.unsuccessfulbuild".
+  Touching "cmTC_203be.dir\Debug\cmTC_203be.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_203be.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_934c4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:52.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_934c4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_934c4.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_934c4.dir\Debug\cmTC_934c4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_934c4.dir\Debug\\" /Fd"cmTC_934c4.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_934c4.dir\Debug\\" /Fd"cmTC_934c4.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_934c4.dir\Debug\cmTC_934c4.exe.embed.manifest.res" cmTC_934c4.dir\Debug\cmTC_934c4_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_934c4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_934c4.dir\Debug\cmTC_934c4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_934c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_934c4.lib" /MACHINE:X86 cmTC_934c4.dir\Debug\cmTC_934c4.exe.embed.manifest.res
+  cmTC_934c4.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_934c4.dir\Debug\cmTC_934c4.exe.embed.manifest" /manifest cmTC_934c4.dir\Debug\cmTC_934c4.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_934c4.dir\Debug\cmTC_934c4.exe.embed.manifest.res" cmTC_934c4.dir\Debug\cmTC_934c4_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_934c4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_934c4.dir\Debug\cmTC_934c4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_934c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_934c4.lib" /MACHINE:X86 cmTC_934c4.dir\Debug\cmTC_934c4.exe.embed.manifest.res
+  cmTC_934c4.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_934c4.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_934c4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_934c4.dir\Debug\cmTC_934c4.unsuccessfulbuild".
+  Touching "cmTC_934c4.dir\Debug\cmTC_934c4.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_934c4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_6691a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:53.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_6691a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6691a.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_6691a.dir\Debug\cmTC_6691a.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_6691a.dir\Debug\\" /Fd"cmTC_6691a.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_6691a.dir\Debug\\" /Fd"cmTC_6691a.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_6691a.dir\Debug\cmTC_6691a.exe.embed.manifest.res" cmTC_6691a.dir\Debug\cmTC_6691a_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_6691a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_6691a.dir\Debug\cmTC_6691a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_6691a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_6691a.lib" /MACHINE:X86 cmTC_6691a.dir\Debug\cmTC_6691a.exe.embed.manifest.res
+  cmTC_6691a.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_6691a.dir\Debug\cmTC_6691a.exe.embed.manifest" /manifest cmTC_6691a.dir\Debug\cmTC_6691a.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_6691a.dir\Debug\cmTC_6691a.exe.embed.manifest.res" cmTC_6691a.dir\Debug\cmTC_6691a_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_6691a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_6691a.dir\Debug\cmTC_6691a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_6691a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_6691a.lib" /MACHINE:X86 cmTC_6691a.dir\Debug\cmTC_6691a.exe.embed.manifest.res
+  cmTC_6691a.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_6691a.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_6691a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6691a.dir\Debug\cmTC_6691a.unsuccessfulbuild".
+  Touching "cmTC_6691a.dir\Debug\cmTC_6691a.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_6691a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_08825.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:56.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_08825.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_08825.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_08825.dir\Debug\cmTC_08825.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_08825.dir\Debug\\" /Fd"cmTC_08825.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_08825.dir\Debug\\" /Fd"cmTC_08825.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_08825.dir\Debug\cmTC_08825.exe.embed.manifest.res" cmTC_08825.dir\Debug\cmTC_08825_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_08825.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_08825.dir\Debug\cmTC_08825.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_08825.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_08825.lib" /MACHINE:X86 cmTC_08825.dir\Debug\cmTC_08825.exe.embed.manifest.res
+  cmTC_08825.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_08825.dir\Debug\cmTC_08825.exe.embed.manifest" /manifest cmTC_08825.dir\Debug\cmTC_08825.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_08825.dir\Debug\cmTC_08825.exe.embed.manifest.res" cmTC_08825.dir\Debug\cmTC_08825_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_08825.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_08825.dir\Debug\cmTC_08825.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_08825.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_08825.lib" /MACHINE:X86 cmTC_08825.dir\Debug\cmTC_08825.exe.embed.manifest.res
+  cmTC_08825.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_08825.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_08825.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_08825.dir\Debug\cmTC_08825.unsuccessfulbuild".
+  Touching "cmTC_08825.dir\Debug\cmTC_08825.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_08825.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_07689.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:37:59.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_07689.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_07689.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_07689.dir\Debug\cmTC_07689.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_07689.dir\Debug\\" /Fd"cmTC_07689.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_07689.dir\Debug\\" /Fd"cmTC_07689.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_07689.dir\Debug\cmTC_07689.exe.embed.manifest.res" cmTC_07689.dir\Debug\cmTC_07689_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_07689.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_07689.dir\Debug\cmTC_07689.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_07689.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_07689.lib" /MACHINE:X86 cmTC_07689.dir\Debug\cmTC_07689.exe.embed.manifest.res
+  cmTC_07689.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_07689.dir\Debug\cmTC_07689.exe.embed.manifest" /manifest cmTC_07689.dir\Debug\cmTC_07689.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_07689.dir\Debug\cmTC_07689.exe.embed.manifest.res" cmTC_07689.dir\Debug\cmTC_07689_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_07689.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_07689.dir\Debug\cmTC_07689.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_07689.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_07689.lib" /MACHINE:X86 cmTC_07689.dir\Debug\cmTC_07689.exe.embed.manifest.res
+  cmTC_07689.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_07689.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_07689.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_07689.dir\Debug\cmTC_07689.unsuccessfulbuild".
+  Touching "cmTC_07689.dir\Debug\cmTC_07689.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_07689.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_27053.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 29/12/2016 03:38:01.
+Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_27053.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_27053.dir\Debug\".
+  Creating directory "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_27053.dir\Debug\cmTC_27053.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_27053.dir\Debug\\" /Fd"cmTC_27053.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP4 /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_27053.dir\Debug\\" /Fd"cmTC_27053.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_27053.dir\Debug\cmTC_27053.exe.embed.manifest.res" cmTC_27053.dir\Debug\cmTC_27053_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_27053.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_27053.dir\Debug\cmTC_27053.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_27053.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_27053.lib" /MACHINE:X86 cmTC_27053.dir\Debug\cmTC_27053.exe.embed.manifest.res
+  cmTC_27053.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_27053.dir\Debug\cmTC_27053.exe.embed.manifest" /manifest cmTC_27053.dir\Debug\cmTC_27053.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_27053.dir\Debug\cmTC_27053.exe.embed.manifest.res" cmTC_27053.dir\Debug\cmTC_27053_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_27053.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_27053.dir\Debug\cmTC_27053.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_27053.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/felix/Documents/FacialRecognition/python-getting-started/CMakeFiles/CMakeTmp/Debug/cmTC_27053.lib" /MACHINE:X86 cmTC_27053.dir\Debug\cmTC_27053.exe.embed.manifest.res
+  cmTC_27053.dir\Debug\CheckIncludeFile.obj  /machine:X86 
+  cmTC_27053.vcxproj -> C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\Debug\cmTC_27053.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_27053.dir\Debug\cmTC_27053.unsuccessfulbuild".
+  Touching "cmTC_27053.dir\Debug\cmTC_27053.lastbuildstate".
+Done Building Project "C:\Users\felix\Documents\FacialRecognition\python-getting-started\CMakeFiles\CMakeTmp\cmTC_27053.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+
